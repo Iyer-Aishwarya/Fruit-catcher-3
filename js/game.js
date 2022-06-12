@@ -134,7 +134,7 @@ class Game{
                       }
 
                       if(obstacleGroup.isTouching(players)){
-                          gameState=end;
+                          gameState=2;
                           
                        //write a code to assign the value of gameState to End
                       }
